@@ -3,5 +3,36 @@
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
 */
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+function buildScoreboard() {
+    var url = "/teams.json";    // you may need to change this
+    var req = new XMLHttpRequest();
+    req.open("GET", url, false);
+    req.send(null);
+    var teams = JSON.parse(req.responseText);
+    teams.sort(function(t1, t2) {
+        return t2.score - t1.score;
+    })
+    scoreboard = document.getElementById('scoreboard');
+    for (i=0; i<teams.length; i++) {
+        tr = document.createElement('tr');
+
+        th = document.createElement('th');
+        th.setAttribute('scope', 'row');
+        th.textContent = i+1;
+        tr.appendChild(th);
+
+        td = document.createElement('td');
+        td.textContent = teams[i].team_name;
+        tr.appendChild(td);
+
+        td = document.createElement('td');
+        td.textContent = teams[i].affiliation;
+        tr.appendChild(td);
+
+        td = document.createElement('td');
+        td.textContent = teams[i].score;
+        tr.appendChild(td);
+
+        scoreboard.appendChild(tr);
+    }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "team_name": "First team",
+        "affiliation": "Test",
+        "score": 1000
+    },
+    {
+        "team_name": "Second team",
+        "affiliation": "Test",
+        "score": 500
+    },
+    {
+        "team_name": "Third team",
+        "affiliation": "Test",
+        "score": 100
+    }
+]
