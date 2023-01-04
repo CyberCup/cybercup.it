@@ -38,25 +38,7 @@
                       <th scope="col">Score</th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>First team</td>
-                      <td>Test</td>
-                      <td>1000</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Second Team</td>
-                      <td>Test</td>
-                      <td>500</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Third Team</td>
-                      <td>Test</td>
-                      <td>100</td>
-                    </tr>
+                  <tbody id="scoreboard">
                   </tbody>
                 </table>
             </div>
@@ -104,5 +86,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>buildScoreboard();</script>
     </body>
 </html>
