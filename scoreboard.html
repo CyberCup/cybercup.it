@@ -13,14 +13,26 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="assets/logo.png" width="30" height="30" alt="">CyberCup.IT</a> 
-                <div class="navbar-nav">
-                      <a class="nav-item nav-link" href="#">Scoreboard</a>
-                      <a class="nav-item nav-link" href="#">Organizzatori</a>
-                    </div>        
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-item nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-item nav-link" href="/scoreboard.html">Scoreboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
+                </li>
+              </ul>
             </div>
+            <div class="navbar-nav">                     
+              <a class="btn btn-primary btn-lg" href="#" role="button">Iscriviti</a>
+            </div>        
+          </div>
         </nav>
         <!-- Page content-->
         <div class="container">
@@ -50,25 +62,29 @@
     <div class="row">
       <!--Grid column-->
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Footer text</h5>
+        <h5 class="text-uppercase">Contatti</h5>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-          aliquam voluptatem veniam, est atque cumque eum delectus sint!
+         Email: ...
         </p>
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Footer text</h5>
+        <h5 class="text-uppercase">Collegamenti</h5>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-          aliquam voluptatem veniam, est atque cumque eum delectus sint!
-        </p>
+         <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-item nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-item nav-link" href="/scoreboard.html">Scoreboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
+                </li>
+              </ul>
       </div>
       <!--Grid column-->
     </div>
@@ -78,7 +94,7 @@
 
   <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © Cybercup.IT 2022
+            © Cybercup.IT 2023
           </div>
   <!-- Copyright -->
 </footer>
