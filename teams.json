@@ -2,16 +2,19 @@
     {
         "team_name": "First team",
         "affiliation": "Test",
-        "score": 1000
+        "score": 1000,
+        "logo": "/logos/team_1_example_logo.jpg"
     },
     {
         "team_name": "Second team",
         "affiliation": "Test",
-        "score": 500
+        "score": 500,
+        "logo": "/logos/default.jpg"
     },
     {
         "team_name": "Third team",
         "affiliation": "Test",
-        "score": 100
+        "score": 100,
+        "logo": "/logos/default.jpg"
     }
 ]

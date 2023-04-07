@@ -33,6 +33,14 @@ function buildScoreboard() {
         td.textContent = teams[i].score;
         tr.appendChild(td);
 
+        td = document.createElement('td');
+        img = document.createElement('img');
+        img.setAttribute('src', teams[i].logo);
+        img.setAttribute('width', '90px');
+        img.setAttribute('height', '60px');
+        td.appendChild(img);
+        tr.appendChild(td);
+
         scoreboard.appendChild(tr);
     }
 }
