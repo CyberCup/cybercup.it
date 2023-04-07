@@ -38,6 +38,8 @@ function buildScoreboard() {
         img.setAttribute('src', teams[i].logo);
         img.setAttribute('width', '90px');
         img.setAttribute('height', '60px');
+        img.setAttribute('style', 'object-fit: contain;');
+
         td.appendChild(img);
         tr.appendChild(td);
 
