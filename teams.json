@@ -2,73 +2,73 @@
   {
     "team_name": "Tower of Hanoi",
     "affiliation": "Politecnico di Milano",
-    "score": 105,
+    "score": 130,
     "logo": "./logos/toh.png"
   },
   {
     "team_name": "Srdnlen",
     "affiliation": "Università degli Studi di Cagliari",
-    "score": 83,
+    "score": 121,
     "logo": "./logos/srdnlen.png"
   },
   {
     "team_name": "TRX",
     "affiliation": "Sapienza Università di Roma",
-    "score": 86,
+    "score": 111,
     "logo": "./logos/trx.png"
   },
   {
     "team_name": "MadrHacks",
     "affiliation": "Università degli Studi di Udine",
-    "score": 88,
+    "score": 114,
     "logo": "./logos/madrhacks.png"
   },
   {
     "team_name": "Ulisse",
     "affiliation": "Università di Bologna",
-    "score": 65,
+    "score": 90,
     "logo": "./logos/ulisse.png"
   },
   {
     "team_name": "NasLab",
     "affiliation": "Università di Catania",
-    "score": 65,
+    "score": 80,
     "logo": "./logos/default.jpg"
   },
   {
     "team_name": "ZenHack",
     "affiliation": "Università degli Studi di Genova",
-    "score": 60,
+    "score": 85,
     "logo": "./logos/default.jpg"
   },
   {
     "team_name": "0xFE",
     "affiliation": "Università di Ferrara",
-    "score": 50,
+    "score": 65,
     "logo": "./logos/0xfe.jpg"
   },
   {
     "team_name": "Pwnzer0tt1",
     "affiliation": "Politecnico di Bari",
-    "score": 81,
+    "score": 106,
     "logo": "./logos/pwnzer0tt1.png"
   },
   {
     "team_name": "fibonhack",
     "affiliation": "Università di Pisa",
-    "score": 35,
+    "score": 80,
     "logo": "./logos/default.jpg"
   },
   {
     "team_name": "pwnthenope",
     "affiliation": "Università degli Studi di Napoli Parthenope",
-    "score": 60,
+    "score": 65,
     "logo": "./logos/pwnthenope.png"
   },
   {
     "team_name": "V:HackaBoia",
     "affiliation": "Università degli Studi della Campania \"Luigi Vanvitelli\"",
-    "score": 40,
+    "score": 65,
     "logo": "./logos/vhackaboia.png"
   },
   {
@@ -80,25 +80,25 @@
   {
     "team_name": "MetaGriPwn Hacklab",
     "affiliation": "Università di Messina",
-    "score": 20,
+    "score": 21,
     "logo": "./logos/default.jpg"
   },
   {
     "team_name": "IngrifHackTeam",
     "affiliation": "Università degli Studi di Perugia",
-    "score": 30,
+    "score": 31,
     "logo": "./logos/default.jpg"
   },
   {
     "team_name": "Hack^3",
     "affiliation": "",
-    "score": 30,
+    "score": 35,
     "logo": "./logos/default.jpg"
   },
   {
     "team_name": "UnisH4ck",
     "affiliation": "Università di Salerno",
-    "score": 20,
+    "score": 25,
     "logo": "./logos/default.jpg"
   }
 ]
