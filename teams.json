@@ -2,25 +2,25 @@
   {
     "team_name": "Tower of Hanoi",
     "affiliation": "Politecnico di Milano",
-    "score": 130,
+    "score": 180,
     "logo": "./logos/toh.png"
   },
   {
     "team_name": "Srdnlen",
     "affiliation": "Università degli Studi di Cagliari",
-    "score": 121,
+    "score": 162,
     "logo": "./logos/srdnlen.png"
   },
   {
     "team_name": "TRX",
     "affiliation": "Sapienza Università di Roma",
-    "score": 111,
+    "score": 146,
     "logo": "./logos/trx.png"
   },
   {
     "team_name": "MadrHacks",
     "affiliation": "Università degli Studi di Udine",
-    "score": 114,
+    "score": 157,
     "logo": "./logos/madrhacks.png"
   },
   {
@@ -38,7 +38,7 @@
   {
     "team_name": "ZenHack",
     "affiliation": "Università degli Studi di Genova",
-    "score": 85,
+    "score": 120,
     "logo": "./logos/zenhack.jpg"
   },
   {
@@ -50,7 +50,7 @@
   {
     "team_name": "Pwnzer0tt1",
     "affiliation": "Politecnico di Bari",
-    "score": 106,
+    "score": 131,
     "logo": "./logos/pwnzer0tt1.png"
   },
   {
@@ -62,13 +62,13 @@
   {
     "team_name": "pwnthenope",
     "affiliation": "Università degli Studi di Napoli Parthenope",
-    "score": 65,
+    "score": 100,
     "logo": "./logos/pwnthenope.png"
   },
   {
     "team_name": "V:HackaBoia",
     "affiliation": "Università degli Studi della Campania \"Luigi Vanvitelli\"",
-    "score": 65,
+    "score": 80,
     "logo": "./logos/vhackaboia.png"
   },
   {
@@ -86,13 +86,13 @@
   {
     "team_name": "IngrifHackTeam",
     "affiliation": "Università degli Studi di Perugia",
-    "score": 31,
+    "score": 36,
     "logo": "./logos/default.jpg"
   },
   {
     "team_name": "Hack^3",
     "affiliation": "",
-    "score": 35,
+    "score": 60,
     "logo": "./logos/default.jpg"
   },
   {
