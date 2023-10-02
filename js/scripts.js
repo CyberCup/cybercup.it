@@ -3,8 +3,7 @@
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
 */
-function buildScoreboard() {
-    var url = "/teams.json";    // you may need to change this
+function buildScoreboard(url) {
     var req = new XMLHttpRequest();
     req.open("GET", url, false);
     req.send(null);

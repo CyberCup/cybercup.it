@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,7 +13,7 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-         <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
             <div class="container">
                 <a class="navbar-brand" href="/"><img src="/assets/logo.png" width="30" height="30" alt="">CyberCup.IT</a> 
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -22,8 +21,12 @@
                 <li class="nav-item active">
                   <a class="nav-item nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item active">
-                  <a class="nav-item nav-link" href="/scoreboard.html">Scoreboard</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Scoreboard</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/scoreboard.html">Globale</a></li>
+                    <li><a class="dropdown-item" href="/scoreboard_junior.html">Categoria Junior</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
@@ -40,10 +43,7 @@
               </ul>
             </div>
              <div class="navbar-nav">                     
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="btn btn-primary btn-lg" href="/register.html" role="button" style="margin-right:10px;">Iscriviti</a>    
-                </li>         
+              <ul class="navbar-nav">        
                 <li>
                 <a class="btn btn-primary btn-lg" href="https://discord.gg/rq3PGpzgqp" role="button">Server Discord</a>
                 </li>
@@ -154,7 +154,7 @@
             </tr>
           </thead>
           <tbody id="scoreboard">
-          <tr><th scope="row">1</th><td>Tower of Hanoi</td><td>Politecnico di Milano</td><td>180</td><td><img src="./logos/toh.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>Srdnlen</td><td>Università degli Studi di Cagliari</td><td>162</td><td><img src="./logos/srdnlen.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">3</th><td>MadrHacks</td><td>Università degli Studi di Udine</td><td>157</td><td><img src="./logos/madrhacks.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">4</th><td>TRX</td><td>Sapienza Università di Roma</td><td>146</td><td><img src="./logos/trx.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">5</th><td>Pwnzer0tt1</td><td>Politecnico di Bari</td><td>131</td><td><img src="./logos/pwnzer0tt1.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">6</th><td>ZenHack</td><td>Università degli Studi di Genova</td><td>120</td><td><img src="./logos/zenhack.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">7</th><td>pwnthenope</td><td>Università degli Studi di Napoli Parthenope</td><td>100</td><td><img src="./logos/pwnthenope.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">8</th><td>Ulisse</td><td>Università di Bologna</td><td>90</td><td><img src="./logos/ulisse.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">9</th><td>NasLab</td><td>Università di Catania</td><td>80</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">10</th><td>fibonhack</td><td>Università di Pisa</td><td>80</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">11</th><td>V:HackaBoia</td><td>Università degli Studi della Campania "Luigi Vanvitelli"</td><td>80</td><td><img src="./logos/vhackaboia.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">12</th><td>0xFE</td><td>Università di Ferrara</td><td>65</td><td><img src="./logos/0xfe.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">13</th><td>Hack^3</td><td></td><td>60</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">14</th><td>IngrifHackTeam</td><td>Università degli Studi di Perugia</td><td>36</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">15</th><td>1manstanding</td><td></td><td>25</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">16</th><td>UnisH4ck</td><td>Università di Salerno</td><td>25</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">17</th><td>MetaGriPwn Hacklab</td><td>Università di Messina</td><td>21</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr></tbody>
+          <tr><th scope="row">1</th><td>Tower of Hanoi</td><td>Politecnico di Milano</td><td>180</td><td><img src="./logos/toh.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>Srdnlen</td><td>Università degli Studi di Cagliari</td><td>162</td><td><img src="./logos/srdnlen.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">3</th><td>MadrHacks</td><td>Università degli Studi di Udine</td><td>157</td><td><img src="./logos/madrhacks.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">4</th><td>TRX</td><td>Sapienza Università di Roma</td><td>146</td><td><img src="./logos/trx.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">5</th><td>Pwnzer0tt1</td><td>Politecnico di Bari</td><td>131</td><td><img src="./logos/pwnzer0tt1.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">6</th><td>ZenHack</td><td>Università degli Studi di Genova</td><td>120</td><td><img src="./logos/zenhack.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">7</th><td>pwnthenope</td><td>Università degli Studi di Napoli Parthenope</td><td>100</td><td><img src="./logos/pwnthenope.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">8</th><td>Ulisse</td><td>Università di Bologna</td><td>90</td><td><img src="./logos/ulisse.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">9</th><td>NasLab</td><td>Università di Catania</td><td>80</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">10</th><td>fibonhack</td><td>Università di Pisa</td><td>80</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">11</th><td>V:HackaBoia</td><td>Università degli Studi della Campania "Luigi Vanvitelli"</td><td>80</td><td><img src="./logos/vhackaboia.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">12</th><td>0xFE</td><td>Università di Ferrara</td><td>65</td><td><img src="./logos/0xfe.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">13</th><td>Hack^3</td><td></td><td>60</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">14</th><td>IngrifHackTeam</td><td>Università degli Studi di Perugia</td><td>36</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">15</th><td>1manstanding</td><td></td><td>25</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">16</th><td>UnisH4ck</td><td>Università di Salerno</td><td>25</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">17</th><td>MetaGriPwn Hacklab</td><td>Università di Messina</td><td>21</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr></tbody>
         </table>
     </div>
   </div>

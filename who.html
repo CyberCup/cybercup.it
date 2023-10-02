@@ -13,7 +13,7 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-         <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
             <div class="container">
                 <a class="navbar-brand" href="/"><img src="/assets/logo.png" width="30" height="30" alt="">CyberCup.IT</a> 
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -21,8 +21,12 @@
                 <li class="nav-item active">
                   <a class="nav-item nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item active">
-                  <a class="nav-item nav-link" href="/scoreboard.html">Scoreboard</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Scoreboard</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/scoreboard.html">Globale</a></li>
+                    <li><a class="dropdown-item" href="/scoreboard_junior.html">Categoria Junior</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
