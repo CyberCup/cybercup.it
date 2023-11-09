@@ -1,71 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>CyberCup.IT</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
-            <div class="container">
-                <a class="navbar-brand" href="/"><img src="/assets/logo.png" width="30" height="30" alt="">CyberCup.IT</a> 
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-item nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Scoreboard</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/scoreboard.html">Globale</a></li>
-                    <li><a class="dropdown-item" href="/scoreboard_junior.html">Categoria Junior</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item nav-link" href="/calendar.html">Calendario CTF</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Hall Of Fame</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/hall_of_fame_2023.html">2023 (1° Edizione)</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-             <div class="navbar-nav">                     
-              <ul class="navbar-nav">        
-                <li>
-                <a class="btn btn-primary btn-lg" href="https://discord.gg/rq3PGpzgqp" role="button">Server Discord</a>
-                </li>
-            </div>
-          </div>
-        </nav>
-
-<div class="container-fluid">
-
-    <div class="jumbotron">
-      <h1 class="text-center">CyberCup.IT 2023 (1° Edizione)</h1>
-<br><br>
-      <h2 class="text-center">Foto della prima edizione del progetto</p>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>CyberCup.IT</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <script>
+    function bodyLoad(){
+      navbar = document.getElementById("navbarInclude")
+      
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {navbar.innerHTML = this.responseText;}
+          if (this.status == 404) {navbar.innerHTML = "Navbar not found.";}
+        }
+      }
+      xhttp.open("GET", "/navbar.html", true);
+      xhttp.send();
+      
+      footer = document.getElementById("footerInclude")
+      
+      xhttp2 = new XMLHttpRequest();
+      xhttp2.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {footer.innerHTML = this.responseText;}
+          if (this.status == 404) {footer.innerHTML = "Footer not found.";}
+        }
+      }
+      xhttp2.open("GET", "/footer.html", true);
+      xhttp2.send();
+    }
+  </script>
+</head>
+<body onload="bodyLoad()">
+  <!-- Responsive navbar-->
+  <div id="navbarInclude"> </div>
   
+  <div class="jumbotron">
+    <div class="row align-items-center text-center align-top pt-4">
+      <h1>CyberCup.IT 2023 <img src="/assets/logo.png" width="60" height="60" alt=""></h1>
+      <p class="lead mission">Riassunto edizione 1° edizione</p>
+    </div>
+  </div>
+  <div class="container">    
     <div class="row">
       <div class="col">
         <figure>
-            <a href="/assets/hall_of_fame_2023_photos/coppe.jpg">
-                <img src="/assets/hall_of_fame_2023_photos/coppe.jpg" class="img-thumbnail grayscale">
-            </a>
-            <figcaption>Coppe per le prime 3 squadre classificate</figcaption>
+          <a href="/assets/hall_of_fame_2023_photos/coppe.jpg">
+            <img src="/assets/hall_of_fame_2023_photos/coppe.jpg" class="img-thumbnail grayscale">
+          </a>
+          <figcaption>Coppe per le prime 3 squadre classificate</figcaption>
         </figure>
         
       </div>
@@ -113,100 +103,59 @@
       </div>
     </div>
     <hr>
-    <div class="container" style="background-color: #e3f2fd;">
-      <section class="bg-light pt-5 pb-5 shadow-sm" style="background-color: #e3f2fd;">
-        <h3 class="border-bottom mb-4 text-center">Calendario CTF CyberCup 2023 (1° Edizione)</h3>
-        <div class="card text-center">
-          <div class="card-header">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Marzo 2023 (1° Round):</h5>
-            <h6>B01lers CTF</h6>
-            <p class="card-text">Inizio: 17 Marzo 2023, 22:00 UTC - Fine: 19 Marzo 2023, 22:00 UTC <br><a href="http://ctf.b01lers.com/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1875">CTFtime</a></p>
-            <h5 class="card-title">Aprile 2023 (2° Round):</h5>
-            <h6>HackPack CTF</h6>
-            <p class="card-text">Inizio: 14 Aprile 2023, 15:00 UTC - Fine: 15 Aprile 2023, 14:59 UTC <br><a href="https://hackpack.club/ctf2023/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1893">CTFtime</a></p>
-            <h5 class="card-title">Maggio 2023 (3° Round):</h5>
-            <h6>m0leCon CTF 2023 Teaser</h6>
-            <p class="card-text">Inizio: 12 Maggio 2023, 17:00 UTC - Fine: 13 Maggio 2023, 17:00 UTC <br><a href="https://m0lecon.it/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1898">CTFtime</a></p>
-            <h5 class="card-title">Giugno 2023 (4° Round):</h5>
-            <h6>GPN CTF</h6>
-            <p class="card-text">Inizio: 9 Giugno 2023, 10:00 UTC - Fine: 10 Giugno 2023, 21:59 UTC <br><a href="https://ctf.kitctf.de/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1965">CTFtime</a></p>
-          </div>
-        </div>
-      </section>
-    </div>
-    <hr>
     <div class="container">
-      <div class="row align-items-center text-center">
-           <h1>Scoreboard</h1>
-     </div>
-    <div class="text-center mt-5">
+      <div class="card text-center">
+        <div class="card-header">
+          <h3 class="text-center">Calendario CTF CyberCup 2023 (1° Edizione)</h3>
+        </div>
+        <div class="card-body border-bottom">
+          <h5 class="card-title">Marzo 2023 (1° Round):</h5>
+          <h6>B01lers CTF</h6>
+          <p class="card-text">Inizio: 17 Marzo 2023, 22:00 UTC - Fine: 19 Marzo 2023, 22:00 UTC <br><a href="http://ctf.b01lers.com/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1875">CTFtime</a></p>
+        </div>
+        <div class="card-body border-bottom"><h5 class="card-title">Aprile 2023 (2° Round):</h5>
+          <h6>HackPack CTF</h6>
+          <p class="card-text">Inizio: 14 Aprile 2023, 15:00 UTC - Fine: 15 Aprile 2023, 14:59 UTC <br><a href="https://hackpack.club/ctf2023/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1893">CTFtime</a></p>
+        </div>
+        <div class="card-body border-bottom"><h5 class="card-title">Maggio 2023 (3° Round):</h5>
+          <h6>m0leCon CTF 2023 Teaser</h6>
+          <p class="card-text">Inizio: 12 Maggio 2023, 17:00 UTC - Fine: 13 Maggio 2023, 17:00 UTC <br><a href="https://m0lecon.it/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1898">CTFtime</a></p>
+        </div>
+        <div class="card-body border-bottom"><h5 class="card-title">Giugno 2023 (4° Round):</h5>
+          <h6>GPN CTF</h6>
+          <p class="card-text">Inizio: 9 Giugno 2023, 10:00 UTC - Fine: 10 Giugno 2023, 21:59 UTC <br><a href="https://ctf.kitctf.de/">Sito Ufficiale</a> <a href="https://ctftime.org/event/1965">CTFtime</a></p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row align-items-center text-center">
+      <h1>Scoreboard</h1>
+    </div>
+    <div class="text-center ">
       <p>Per scaricare i dettagli della scoreboard fai click <a href="/scoreboard_history/scoreboard2023.pdf">QUI</a></p>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Team Name</th>
-              <th scope="col">Affiliation</th>
-              <th scope="col">Score</th>
-              <th scope="col">Logo</th>
-            </tr>
-          </thead>
-          <tbody id="scoreboard">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team Name</th>
+            <th scope="col">Affiliation</th>
+            <th scope="col">Score</th>
+            <th scope="col">Logo</th>
+          </tr>
+        </thead>
+        <tbody id="scoreboard">
           <tr><th scope="row">1</th><td>Tower of Hanoi</td><td>Politecnico di Milano</td><td>180</td><td><img src="./logos/toh.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>Srdnlen</td><td>Università degli Studi di Cagliari</td><td>162</td><td><img src="./logos/srdnlen.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">3</th><td>MadrHacks</td><td>Università degli Studi di Udine</td><td>157</td><td><img src="./logos/madrhacks.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">4</th><td>TRX</td><td>Sapienza Università di Roma</td><td>146</td><td><img src="./logos/trx.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">5</th><td>Pwnzer0tt1</td><td>Politecnico di Bari</td><td>131</td><td><img src="./logos/pwnzer0tt1.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">6</th><td>ZenHack</td><td>Università degli Studi di Genova</td><td>120</td><td><img src="./logos/zenhack.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">7</th><td>pwnthenope</td><td>Università degli Studi di Napoli Parthenope</td><td>100</td><td><img src="./logos/pwnthenope.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">8</th><td>Ulisse</td><td>Università di Bologna</td><td>90</td><td><img src="./logos/ulisse.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">9</th><td>NasLab</td><td>Università di Catania</td><td>80</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">10</th><td>fibonhack</td><td>Università di Pisa</td><td>80</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">11</th><td>V:HackaBoia</td><td>Università degli Studi della Campania "Luigi Vanvitelli"</td><td>80</td><td><img src="./logos/vhackaboia.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">12</th><td>0xFE</td><td>Università di Ferrara</td><td>65</td><td><img src="./logos/0xfe.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">13</th><td>Hack^3</td><td></td><td>60</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">14</th><td>IngrifHackTeam</td><td>Università degli Studi di Perugia</td><td>36</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">15</th><td>1manstanding</td><td></td><td>25</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">16</th><td>UnisH4ck</td><td>Università di Salerno</td><td>25</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">17</th><td>MetaGriPwn Hacklab</td><td>Università di Messina</td><td>21</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr></tbody>
         </table>
-    </div>
-  </div>
-  </div>
-  <footer class="bg-light text-center text-lg-start">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Contatti</h5>
-  
-          <p>
-           Email: davide.maiorca@unica.it
-          </p>
-          <h5 class="text-uppercase">Disclaimer</h5>
-          <p>Il sito è ancora in costruzione!</p>
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Collegamenti</h5>
-  
-           <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-item nav-link" href="/">Home</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-item nav-link" href="/scoreboard.html">Scoreboard</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
-                  </li>
-                </ul>
-        </div>
-        <!--Grid column-->
       </div>
-      <!--Grid row-->
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © Cybercup.IT 2023
-            </div>
-    <!-- Copyright -->
+  </div>
+  <footer id="footerInclude">
   </footer>
-          <!-- Bootstrap core JS-->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-          <!-- Core theme JS-->
-          <script src="js/scripts.js"></script>
-      </body>
-  </html>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+</html>

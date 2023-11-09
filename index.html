@@ -1,173 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>CyberCup.IT</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
-            <div class="container">
-                <a class="navbar-brand" href="/"><img src="/assets/logo.png" width="30" height="30" alt="">CyberCup.IT</a> 
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-item nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Scoreboard</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/scoreboard.html">Globale</a></li>
-                    <li><a class="dropdown-item" href="/scoreboard_junior.html">Categoria Junior</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item nav-link" href="/calendar.html">Calendario CTF</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Hall Of Fame</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/hall_of_fame_2023.html">2023 (1° Edizione)</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-             <div class="navbar-nav">                     
-              <ul class="navbar-nav">        
-                <li>
-                <a class="btn btn-primary btn-lg" href="https://discord.gg/rq3PGpzgqp" role="button">Server Discord</a>
-                </li>
-            </div>
-          </div>
-        </nav>
-        <!-- Page content-->
-        <div class="container">
-           <div class="row align-items-center text-center">
-                <h1>CyberCup.IT 2024<img src="/assets/logo.png" width="50" height="50" alt=""></h1>
-          </div>
-        </div>
-        <div class="container-fluid text-center" style="background-color: #e3f2fd;">
-          <div class="jumbotron jumbotron-fluid justify-content-center">
-            <hr class="my-4">
-            <h1 class="display-4">Coppa Italiana CTF</h1>
-            <p class="lead">CyberCup è il primo torneo italiano di Capture The Flag</p>
-            <hr class="my-4">
-          </div>
-        </div>
-        <div class="container">
-          <div class="row align-items-center text-center">
-               <h2>Come funziona CyberCup?</h2>
-               <p>Il programma consiste in un torneo Capture The Flag, costituito da vari eventi selezionati tra le gare internazionali a disposizione. Al torneo potranno partecipare tutte le squadre (senza limiti al numero di partecipanti) che si iscriveranno, incluse quelle di nuova costituzione. La competizione sarà caratterizzata da un <a href="scoreboard.html">ranking</a> delle squadre, il punteggio dipende dalle performance ad ogni gara selezionata. Gli eventi di CyberCup verranno accuratamente scelti in accordo alla qualità e al livello di difficoltà da un comitato tecnico. Avranno maggiore priorità le competizioni organizzate da università e da squadre CTF italiane. Gli eventi avranno una difficoltà bilanciata in modo da accogliere sia squadre con poca esperienza che quelle più preparate.</p>
-           </div>
-         </div>
-
-         <div class="container">
-          <div class="row align-items-center">
-               <h2>Struttura del torneo</h2>
-               <p>CyberCup inizia ad Ottobre 2023 e termina a Giugno 2024. Verrà svolta una gara al mese.</p>
-               <p>I team saranno divisi in due categorie: Junior e Senior. Sarà presente una classifica generale ed una classifica solo per i team Junior. I team Junior potranno partecipare ad entrambe le classifiche. </p>
-               <p>La categoria Junior può essere richiesta secondo i seguenti requisiti:</p>
-               <ul>
-                <li>Non ha raggiunto la metà della classifica nell’edizione precedente di Cybercup.it.</li>
-                <li>Riceve un endorsement da parte di un referente di sede che, sotto la propria responsabilità, dichiara che la squadra è Junior.</li>
-                <li>In caso di squadra completamente nuova (senza endorsement), che fa richiesta per essere considerata Junior, si valuterà caso per caso ad insindacabile giudizio del committee.</li>
-               </ul>
-           </div>
-         </div>
-           <div class="container-fluid text-center" style="background-color: #e3f2fd;">
-          <div class="jumbotron jumbotron-fluid justify-content-center">
-            <hr class="my-4">
-            <h1 class="display-4">Organizzatori</h1>
-            <p class="lead">Scopri chi sono gli organizzatori del progetto</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="/who.html" role="button">Vai</a>
-            </p>
-            <hr class="my-4">
-          </div>
-        </div>
-        <div class="container">
-           <div class="row align-items-center text-left">
-               <h2 class="text-center">Punteggio</h2>
-                <p>I punteggi saranno calcolati basandosi sulla posizione nella classifica globale</p>
-                <p>Viene assegnato un gettone di presenza (1 punto) per la semplice presenza alla gara (intesa come invio del sanity check), a prescindere dal risultato</p>
-                <p>Il punteggio per ogni gara è dato dall’interpolazione lineare dei punteggi già definiti nella scorsa edizione (2022), ovvero:</p>
-                <ul> 
-                  <li>50 punti se si è arrivati primi nella classifica globale</li>
-                  <li>45 nei primi 5</li>
-                  <li>40 nei primi 10</li>
-                  <li>35 nei primi 20</li>
-                  <li>25 nei primi 50</li>
-                  <li>15 nei primi 100</li>
-                </ul>
-                <p>I dettagli della computazione si possono trovare sul <a href="https://github.com/CyberCup/punteggi_2023"> repository di GitHub dedicato</a></p>
-                <h3>Peso delle competizioni</h3>
-                <p>Il peso delle competizioni sarà determinato in base al numero di team iscritti. Se il numero di partecipanti che hanno preso almeno la challenge di benvenuto è inferiore al numero di soglia per applicazione del punteggio, il punteggio di classifica non si applica. Le competizioni avranno un peso, applicato al punteggio di classifica, in base al numero di partecipanti.</p>
-                <ul>
-                  <li>Peso 1 se gli iscritti sono più di 100</li>
-                  <li>Peso 0.75 se gli iscritti sono tra i 50 e i 99</li>
-                  <li>Peso 0.5 se gli iscritti sono tra i 20 e i 49</li>
-                  <li>Peso 0.25 se gli iscritti sono meno di 20</li>
-                </ul>
-           </div>
-        </div>
-<footer class="bg-light text-center text-lg-start">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Contatti</h5>
-
-        <p>
-         Email: davide.maiorca@unica.it
-        </p>
-        <h5 class="text-uppercase">Disclaimer</h5>
-        <p>Il sito è ancora in costruzione!</p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>CyberCup.IT</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <script>
+    function bodyLoad(){
+      navbar = document.getElementById("navbarInclude")
+      
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {navbar.innerHTML = this.responseText;}
+          if (this.status == 404) {navbar.innerHTML = "Navbar not found.";}
+        }
+      }
+      xhttp.open("GET", "/navbar.html", true);
+      xhttp.send();
+      
+      footer = document.getElementById("footerInclude")
+      
+      xhttp2 = new XMLHttpRequest();
+      xhttp2.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {footer.innerHTML = this.responseText;}
+          if (this.status == 404) {footer.innerHTML = "Footer not found.";}
+        }
+      }
+      xhttp2.open("GET", "/footer.html", true);
+      xhttp2.send();
+    }
+  </script>
+</head>
+<body onload="bodyLoad()">
+  <!-- Responsive navbar-->
+  <div id="navbarInclude"></div>
+  <!-- Page content-->
+  <div class="container text-center" >
+    <div class="jumbotron">
+      <div class="row align-items-center text-center align-top pt-4">
+        <h1>CyberCup.IT 2024<img src="/assets/logo.png" width="60" height="60" alt=""></h1>
+        <p class="lead mission">CyberCup è il primo torneo italiano di Capture The Flag</p>
       </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Collegamenti</h5>
-
-         <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-item nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-item nav-link" href="/scoreboard.html">Scoreboard</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item nav-link" href="/who.html">Organizzatori</a>
-                </li>
-              </ul>
-      </div>
-      <!--Grid column-->
     </div>
-    <!--Grid row-->
   </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © Cybercup.IT 2024
-          </div>
-  <!-- Copyright -->
-</footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+  <div class="container text-center" style="background-color: #e3f2fd;">
+    <div class="jumbotron justify-content-center">
+      <hr class="my-4">
+      <h1 class="display-4">Come funziona CyberCup?</h1>
+      <p class="mission">Il programma consiste in un torneo Capture The Flag, costituito da vari eventi selezionati tra le gare internazionali a disposizione. Al torneo potranno partecipare tutte le squadre (senza limiti al numero di partecipanti) che si iscriveranno, incluse quelle di nuova costituzione. La competizione sarà caratterizzata da un <a href="scoreboard.html">ranking</a> delle squadre, il punteggio dipende dalle performance ad ogni gara selezionata. Gli eventi di CyberCup verranno accuratamente scelti in accordo alla qualità e al livello di difficoltà da un comitato tecnico. Avranno maggiore priorità le competizioni organizzate da università e da squadre CTF italiane. Gli eventi avranno una difficoltà bilanciata in modo da accogliere sia squadre con poca esperienza che quelle più preparate.</p>
+      <hr class="my-4">
+    </div>
+  </div>
+  
+  
+  <div class="container">
+    <div class="row align-items-center">
+      <h2>Struttura del torneo</h2>
+      <p>CyberCup inizia ad Ottobre 2023 e termina a Giugno 2024. Verrà svolta una gara al mese.</p>
+      <p>I team saranno divisi in due categorie: Junior e Senior. Sarà presente una classifica generale ed una classifica solo per i team Junior. I team Junior potranno partecipare ad entrambe le classifiche. </p>
+      <p>La categoria Junior può essere richiesta secondo i seguenti requisiti:</p>
+      <ul>
+        <li>Non ha raggiunto la metà della classifica nell’edizione precedente di Cybercup.it.</li>
+        <li>Riceve un endorsement da parte di un referente di sede che, sotto la propria responsabilità, dichiara che la squadra è Junior.</li>
+        <li>In caso di squadra completamente nuova (senza endorsement), che fa richiesta per essere considerata Junior, si valuterà caso per caso ad insindacabile giudizio del committee.</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row align-items-center text-left">
+      <h2 >Punteggio</h2>
+      <p>I punteggi saranno calcolati basandosi sulla posizione nella classifica globale</p>
+      <p>Viene assegnato un gettone di presenza (1 punto) per la semplice presenza alla gara (intesa come invio del sanity check), a prescindere dal risultato</p>
+      <p>Il punteggio per ogni gara è dato dall’interpolazione lineare dei punteggi già definiti nella scorsa edizione (2022), ovvero:</p>
+      <ul> 
+        <li>50 punti se si è arrivati primi nella classifica globale</li>
+        <li>45 nei primi 5</li>
+        <li>40 nei primi 10</li>
+        <li>35 nei primi 20</li>
+        <li>25 nei primi 50</li>
+        <li>15 nei primi 100</li>
+      </ul>
+      <p>I dettagli della computazione si possono trovare sul <a href="https://github.com/CyberCup/punteggi_2023"> repository di GitHub dedicato</a></p>
+      <h3>Peso delle competizioni</h3>
+      <p>Il peso delle competizioni sarà determinato in base al numero di team iscritti. Se il numero di partecipanti che hanno preso almeno la challenge di benvenuto è inferiore al numero di soglia per applicazione del punteggio, il punteggio di classifica non si applica. Le competizioni avranno un peso, applicato al punteggio di classifica, in base al numero di partecipanti.</p>
+      <ul>
+        <li>Peso 1 se gli iscritti sono più di 100</li>
+        <li>Peso 0.75 se gli iscritti sono tra i 50 e i 99</li>
+        <li>Peso 0.5 se gli iscritti sono tra i 20 e i 49</li>
+        <li>Peso 0.25 se gli iscritti sono meno di 20</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container text-center" style="background-color: #e3f2fd;">
+    <div class="jumbotron justify-content-center">
+      <hr class="my-4">
+      <h1 class="display-4">Organizzatori</h1>
+      <p class="lead">Scopri chi sono gli organizzatori del progetto</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/who.html" role="button">Vai</a>
+      </p>
+      <hr class="my-4">
+    </div>
+  </div>
+  <footer id="footerInclude">
+  </footer>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
 </html>
