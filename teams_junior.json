@@ -52,5 +52,11 @@
     "affiliation": "Università Ca' Foscari di Venezia",
     "score": 28.0,
     "logo": "./logos/bhackari.jpg"
+  },
+  {
+    "team_name": "Hidden Issue",
+    "affiliation": "",
+    "score": 24.6,
+    "logo": "./logos/hiddenissue.png"
   }
 ]
