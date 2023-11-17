@@ -1,4 +1,4 @@
-[
+ [
   {
     "team_name": "MadrHacks",
     "affiliation": "Università degli Studi di Udine",
@@ -9,7 +9,7 @@
     "team_name": "k1nd4SUS",
     "affiliation": "Università degli studi di Milano",
     "score": 43.0,
-    "logo": "./logos/k1nd4SUS.png"
+    "logo": "./logos/k1nd4sus.png"
   },
   {
     "team_name": "Ulisse",
@@ -42,6 +42,12 @@
     "logo": "./logos/ctfswamp.png"
   },
   {
+    "team_name": "Srdnlen",
+    "affiliation": "Università degli Studi di Cagliari",
+    "score": 50.0,
+    "logo": "./logos/srdnlen.png"
+  },
+  {
     "team_name": "pwnthenope",
     "affiliation": "Università degli Studi di Napoli Parthenope",
     "score": 36.5,
@@ -63,7 +69,7 @@
     "team_name": "FoocHackz",
     "affiliation": "Università/Politecnico di Bari",
     "score": 42.0,
-    "logo": "./logos/FoocHackz.png"
+    "logo": "./logos/foochackz.png"
   },
   {
     "team_name": "naslab",
@@ -76,12 +82,6 @@
     "affiliation": "Politecnico di Milano",
     "score": 50.0,
     "logo": "./logos/toh.png"
-  },
-  {
-    "team_name": "Srdnlen",
-    "affiliation": "Università degli Studi di Cagliari",
-    "score": 50.0,
-    "logo": "./logos/srdnlen.png"
   },
   {
     "team_name": "V:HackaBoia",
@@ -105,7 +105,7 @@
     "team_name": "UnisH4ck",
     "affiliation": "Università di Salerno",
     "score": 21.6,
-    "logo": "./logos/UnisH4ck.png"
+    "logo": "./logos/unish4ck.png"
   },
   {
     "team_name": "hack^3",
@@ -129,7 +129,7 @@
     "team_name": "Spwnzati",
     "affiliation": "",
     "score": 35.5,
-    "logo": "./logos/Spwnzati.png"
+    "logo": "./logos/spwnzati.png"
   },
   {
     "team_name": "PWNC4M",
@@ -142,5 +142,11 @@
     "affiliation": "Università Ca' Foscari di Venezia",
     "score": 28.0,
     "logo": "./logos/bhackari.jpg"
+  },
+  {
+    "team_name": "Hidden Issue",
+    "affiliation": "",
+    "score": 24.6,
+    "logo": "./logos/hiddenissue.png"
   }
 ]
