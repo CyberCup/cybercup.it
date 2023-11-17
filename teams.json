@@ -42,12 +42,6 @@
     "logo": "./logos/ctfswamp.png"
   },
   {
-    "team_name": "Srdnlen",
-    "affiliation": "Università degli Studi di Cagliari",
-    "score": 50.0,
-    "logo": "./logos/srdnlen.png"
-  },
-  {
     "team_name": "pwnthenope",
     "affiliation": "Università degli Studi di Napoli Parthenope",
     "score": 36.5,
@@ -82,6 +76,12 @@
     "affiliation": "Politecnico di Milano",
     "score": 50.0,
     "logo": "./logos/toh.png"
+  },
+  {
+    "team_name": "Srdnlen",
+    "affiliation": "Università degli Studi di Cagliari",
+    "score": 50.0,
+    "logo": "./logos/srdnlen.png"
   },
   {
     "team_name": "V:HackaBoia",
