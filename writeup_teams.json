@@ -32,7 +32,7 @@
   {
     "team_name": "TRX",
     "affiliation": "Sapienza Università di Roma",
-    "score": 1,
+    "score": 0,
     "logo": "./logos/trx.png"
   },
   {
@@ -80,7 +80,7 @@
   {
     "team_name": "Tower of Hanoi",
     "affiliation": "Politecnico di Milano",
-    "score": 0,
+    "score": 1,
     "logo": "./logos/toh.png"
   },
   {
