@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>CyberCup.IT</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  
+  <script>
+    function bodyLoad(){
+      navbar = document.getElementById("navbarInclude")
+      
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {navbar.innerHTML = this.responseText;}
+          if (this.status == 404) {navbar.innerHTML = "Navbar not found.";}
+        }
+      }
+      xhttp.open("GET", "/navbar.html", true);
+      xhttp.send();
+      
+      footer = document.getElementById("footerInclude")
+      
+      xhttp2 = new XMLHttpRequest();
+      xhttp2.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {footer.innerHTML = this.responseText;}
+          if (this.status == 404) {footer.innerHTML = "Footer not found.";}
+        }
+      }
+      xhttp2.open("GET", "/footer.html", true);
+      xhttp2.send();
+    }
+  </script>
+</head>
+<body onload="bodyLoad()">
+  <!-- Responsive navbar-->
+  <div id="navbarInclude"> </div>
+  <!-- Page content-->
+  <div class="container mt-3">
+    <div class="row align-items-center text-center">
+      <h1>Writeup Competition Winners</h1>
+      <p>Per leggere i writeup dei vari team fai click <a href="https://drive.google.com/drive/folders/1PnZr_BJ5rhRGyPky7rRo4e8WJ3ms8cIt?usp=sharing">qui</a></p>
+    </div>
+    <div class="text-center mt-5">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team Name</th>
+            <th scope="col">Affiliation</th>
+            <th scope="col">Badges</th>
+            <th scope="col">Logo</th>
+          </tr>
+        </thead>
+        <tbody id="scoreboard">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer id="footerInclude">
+  </footer>
+  <!-- Bootstrap core JS
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  Core theme JS-->
+  <script src="/js/scripts.js"></script>
+  <script>buildWriteupScoreboard('/writeup_teams.json');</script>
+</body>
+</html>
