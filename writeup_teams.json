@@ -1,0 +1,152 @@
+ [
+  {
+    "team_name": "MadrHacks",
+    "affiliation": "Università degli Studi di Udine",
+    "score": 1,
+    "logo": "./logos/madrhacks.png"
+  },
+  {
+    "team_name": "k1nd4SUS",
+    "affiliation": "Università degli studi di Milano",
+    "score": 0,
+    "logo": "./logos/k1nd4SUS.png"
+  },
+  {
+    "team_name": "Ulisse",
+    "affiliation": "Università di Bologna",
+    "score": 0,
+    "logo": "./logos/ulisse.png"
+  },
+  {
+    "team_name": "ZenHack",
+    "affiliation": "Università degli studi di Genova",
+    "score": 0,
+    "logo": "./logos/zenhack.png"
+  },
+  {
+    "team_name": "IngrifHackTeam",
+    "affiliation": "Università degli Studi di Perugia",
+    "score": 0,
+    "logo": "./logos/IngrifisHack.png"
+  },
+  {
+    "team_name": "TRX",
+    "affiliation": "Sapienza Università di Roma",
+    "score": 0,
+    "logo": "./logos/trx.png"
+  },
+  {
+    "team_name": "CTF Swamp Team",
+    "affiliation": "",
+    "score": 0,
+    "logo": "./logos/ctfswamp.png"
+  },
+  {
+    "team_name": "Srdnlen",
+    "affiliation": "Università degli Studi di Cagliari",
+    "score": 0,
+    "logo": "./logos/srdnlen.png"
+  },
+  {
+    "team_name": "pwnthenope",
+    "affiliation": "Università degli Studi di Napoli Parthenope",
+    "score": 0,
+    "logo": "./logos/pwnthenope.png"
+  },
+  {
+    "team_name": "Cyb3rM0nk3ys",
+    "affiliation": "",
+    "score": 0,
+    "logo": "./logos/Cyb3rM0nk3ys.jpg"
+  },
+  {
+    "team_name": "Pwnlentoni",
+    "affiliation": "",
+    "score": 0,
+    "logo": "./logos/pwnlentoni.png"
+  },
+  {
+    "team_name": "FoocHackz",
+    "affiliation": "Università/Politecnico di Bari",
+    "score": 0,
+    "logo": "./logos/FoocHackz.png"
+  },
+  {
+    "team_name": "naslab",
+    "affiliation": "Università di Catania",
+    "score": 0,
+    "logo": "./logos/naslab.jpg"
+  },
+  {
+    "team_name": "Tower of Hanoi",
+    "affiliation": "Politecnico di Milano",
+    "score": 1,
+    "logo": "./logos/toh.png"
+  },
+  {
+    "team_name": "V:HackaBoia",
+    "affiliation": "Università degli studi della Campania Luigi Vanvitelli",
+    "score": 0,
+    "logo": "./logos/vhackaboia.png"
+  },
+  {
+    "team_name": "aetruria",
+    "affiliation": "Università di Parma, Università di Modena e Reggio Emilia, Università di Brescia",
+    "score": 0,
+    "logo": "./logos/aetruria.jpg"
+  },
+  {
+    "team_name": "H4ckan3derl1",
+    "affiliation": "Libera Università di Bolzano",
+    "score": 0,
+    "logo": "./logos/hackan3derl1.png"
+  },
+  {
+    "team_name": "UnisH4ck",
+    "affiliation": "Università di Salerno",
+    "score": 0,
+    "logo": "./logos/UnisH4ck.png"
+  },
+  {
+    "team_name": "hack^3",
+    "affiliation": "",
+    "score": 0,
+    "logo": "./logos/hack3.jpg"
+  },
+  {
+    "team_name": "CyberSp3ck",
+    "affiliation": "Università di Trento",
+    "score": 0,
+    "logo": "./logos/cybersp3ck.png"
+  },
+  {
+    "team_name": "Spaghetti Code",
+    "affiliation": "",
+    "score": 0,
+    "logo": "./logos/default.jpg"
+  },
+  {
+    "team_name": "Spwnzati",
+    "affiliation": "",
+    "score": 0,
+    "logo": "./logos/Spwnzati.png"
+  },
+  {
+    "team_name": "PWNC4M",
+    "affiliation": "Università degli Studi di Camerino",
+    "score": 0,
+    "logo": "./logos/pwnc4m.png"
+  },
+  {
+    "team_name": "bhackari",
+    "affiliation": "Università Ca' Foscari di Venezia",
+    "score": 0,
+    "logo": "./logos/bhackari.jpg"
+  },
+  {
+    "team_name": "Hidden Issue",
+    "affiliation": "",
+    "score": 0,
+    "logo": "./logos/hiddenissue.png"
+  }
+]
