@@ -44,7 +44,7 @@
   {
     "team_name": "Srdnlen",
     "affiliation": "Università degli Studi di Cagliari",
-    "score": 0,
+    "score": 1,
     "logo": "./logos/srdnlen.png"
   },
   {
@@ -117,7 +117,7 @@
     "team_name": "CyberSp3ck",
     "affiliation": "Università di Trento",
     "score": 0,
-    "logo": "./logos/cybersp3ck.png"
+    "logo": "./logos/cybersp3ck.jpeg"
   },
   {
     "team_name": "Spaghetti Code",
