@@ -8,25 +8,25 @@
   {
     "team_name": "Pwnlentoni",
     "affiliation": "",
-    "score": 97.6,
+    "score": 112.6,
     "logo": "./logos/pwnlentoni.png"
   },
   {
     "team_name": "V:HackaBoia",
     "affiliation": "Università degli studi della Campania Luigi Vanvitelli",
-    "score": 54.8,
+    "score": 69.8,
     "logo": "./logos/vhackaboia.png"
   },
   {
     "team_name": "H4ckan3derl1",
     "affiliation": "Libera Università di Bolzano",
-    "score": 80.27,
+    "score": 95.27,
     "logo": "./logos/hackan3derl1.png"
   },
   {
     "team_name": "CyberSp3ck",
     "affiliation": "Università di Trento",
-    "score": 73.33,
+    "score": 88.33,
     "logo": "./logos/cybersp3ck.png"
   },
   {
@@ -38,25 +38,25 @@
   {
     "team_name": "Spwnzati",
     "affiliation": "",
-    "score": 93.8,
+    "score": 108.8,
     "logo": "./logos/Spwnzati.png"
   },
   {
     "team_name": "PWNC4M",
     "affiliation": "Università degli Studi di Camerino",
-    "score": 109.67,
+    "score": 124.67,
     "logo": "./logos/pwnc4m.png"
   },
   {
     "team_name": "bhackari",
     "affiliation": "Università Ca' Foscari di Venezia",
-    "score": 93.0,
+    "score": 108.0,
     "logo": "./logos/bhackari.jpg"
   },
   {
     "team_name": "Hidden Issue",
     "affiliation": "",
-    "score": 70.93,
+    "score": 85.93,
     "logo": "./logos/hiddenissue.png"
   }
 ]
