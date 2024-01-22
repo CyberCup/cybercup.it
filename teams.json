@@ -32,7 +32,7 @@
   {
     "team_name": "TRX",
     "affiliation": "Sapienza Università di Roma",
-    "score": 134.17000000000002,
+    "score": 134.17,
     "logo": "./logos/trx.png"
   },
   {
@@ -68,13 +68,13 @@
   {
     "team_name": "FoocHackz",
     "affiliation": "Università/Politecnico di Bari",
-    "score": 129.92000000000002,
+    "score": 129.92,
     "logo": "./logos/FoocHackz.png"
   },
   {
     "team_name": "naslab",
     "affiliation": "Università di Catania",
-    "score": 137.17000000000002,
+    "score": 137.17,
     "logo": "./logos/naslab.jpg"
   },
   {
