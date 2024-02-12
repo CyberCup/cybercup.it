@@ -57,7 +57,7 @@ function buildWriteupScoreboard(url) {
             badged_teams.push(teams[i]);
         }
     }
-    teams.sort(function(t1, t2) {
+    badged_teams.sort(function(t1, t2) {
         return t2.score - t1.score;
     })
     scoreboard = document.getElementById('scoreboard');
