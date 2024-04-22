@@ -1,26 +1,26 @@
-[
+ [
   {
     "team_name": "MadrHacks",
     "affiliation": "Università degli Studi di Udine",
-    "score": 238.08,
+    "score": 286.83,
     "logo": "./logos/madrhacks.png"
   },
   {
     "team_name": "k1nd4SUS",
     "affiliation": "Università degli studi di Milano",
-    "score": 177.6,
+    "score": 199.8,
     "logo": "./logos/k1nd4SUS.png"
   },
   {
     "team_name": "Ulisse",
     "affiliation": "Università di Bologna",
-    "score": 126.4,
+    "score": 148.8,
     "logo": "./logos/ulisse.png"
   },
   {
     "team_name": "ZenHack",
     "affiliation": "Università degli studi di Genova",
-    "score": 143.74,
+    "score": 162.14,
     "logo": "./logos/zenhack.png"
   },
   {
@@ -32,7 +32,7 @@
   {
     "team_name": "TRX",
     "affiliation": "Sapienza Università di Roma",
-    "score": 179.3,
+    "score": 209.63,
     "logo": "./logos/trx.png"
   },
   {
@@ -44,13 +44,13 @@
   {
     "team_name": "Srdnlen",
     "affiliation": "Università degli Studi di Cagliari",
-    "score": 238.4,
+    "score": 282.4,
     "logo": "./logos/srdnlen.png"
   },
   {
     "team_name": "pwnthenope",
     "affiliation": "Università degli Studi di Napoli Parthenope",
-    "score": 142.1,
+    "score": 173.1,
     "logo": "./logos/pwnthenope.png"
   },
   {
@@ -62,25 +62,25 @@
   {
     "team_name": "Pwnlentoni",
     "affiliation": "",
-    "score": 149.6,
+    "score": 185.1,
     "logo": "./logos/pwnlentoni.png"
   },
   {
     "team_name": "FoocHackz",
     "affiliation": "Università/Politecnico di Bari",
-    "score": 169.92,
+    "score": 206.42,
     "logo": "./logos/FoocHackz.png"
   },
   {
     "team_name": "naslab",
     "affiliation": "Università di Catania",
-    "score": 171.77,
+    "score": 186.77,
     "logo": "./logos/naslab.jpg"
   },
   {
     "team_name": "Tower of Hanoi",
     "affiliation": "Politecnico di Milano",
-    "score": 207.08,
+    "score": 253.33,
     "logo": "./logos/toh.png"
   },
   {
@@ -92,13 +92,13 @@
   {
     "team_name": "aetruria",
     "affiliation": "Università di Parma, Università di Modena e Reggio Emilia, Università di Brescia",
-    "score": 206.27,
+    "score": 240.6,
     "logo": "./logos/aetruria.jpg"
   },
   {
     "team_name": "H4ckan3derl1",
     "affiliation": "Libera Università di Bolzano",
-    "score": 125.27,
+    "score": 146.67,
     "logo": "./logos/hackan3derl1.png"
   },
   {
@@ -110,7 +110,7 @@
   {
     "team_name": "hack^3",
     "affiliation": "",
-    "score": 23.8,
+    "score": 44.6,
     "logo": "./logos/hack3.jpg"
   },
   {
@@ -128,19 +128,19 @@
   {
     "team_name": "Spwnzati",
     "affiliation": "",
-    "score": 138.8,
+    "score": 153.8,
     "logo": "./logos/Spwnzati.png"
   },
   {
     "team_name": "PWNC4M",
     "affiliation": "Università degli Studi di Camerino",
-    "score": 164.27,
+    "score": 192.94,
     "logo": "./logos/pwnc4m.png"
   },
   {
     "team_name": "bhackari",
     "affiliation": "Università Ca' Foscari di Venezia",
-    "score": 126.8,
+    "score": 141.8,
     "logo": "./logos/bhackari.jpg"
   },
   {
