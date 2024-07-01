@@ -8,7 +8,7 @@
   {
     "team_name": "Pwnlentoni",
     "affiliation": "",
-    "score": 228.1,
+    "score": 258.43,
     "logo": "./logos/pwnlentoni.png"
   },
   {
@@ -20,7 +20,7 @@
   {
     "team_name": "H4ckan3derl1",
     "affiliation": "Libera Università di Bolzano",
-    "score": 182.67,
+    "score": 197.67,
     "logo": "./logos/hackan3derl1.png"
   },
   {
@@ -44,19 +44,19 @@
   {
     "team_name": "PWNC4M",
     "affiliation": "Università degli Studi di Camerino",
-    "score": 232.94,
+    "score": 255.94,
     "logo": "./logos/pwnc4m.png"
   },
   {
     "team_name": "bhackari",
     "affiliation": "Università Ca' Foscari di Venezia",
-    "score": 141.8,
+    "score": 157.6,
     "logo": "./logos/bhackari.jpg"
   },
   {
     "team_name": "Hidden Issue",
     "affiliation": "",
-    "score": 130.93,
+    "score": 145.93,
     "logo": "./logos/hiddenissue.png"
   }
 ]

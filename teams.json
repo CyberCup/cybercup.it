@@ -2,19 +2,19 @@
   {
     "team_name": "MadrHacks",
     "affiliation": "Università degli Studi di Udine",
-    "score": 335.58,
+    "score": 377.58,
     "logo": "./logos/madrhacks.png"
   },
   {
     "team_name": "k1nd4SUS",
     "affiliation": "Università degli studi di Milano",
-    "score": 233.13,
+    "score": 248.13,
     "logo": "./logos/k1nd4SUS.png"
   },
   {
     "team_name": "Ulisse",
     "affiliation": "Università di Bologna",
-    "score": 163.8,
+    "score": 178.8,
     "logo": "./logos/ulisse.png"
   },
   {
@@ -44,13 +44,13 @@
   {
     "team_name": "Srdnlen",
     "affiliation": "Università degli Studi di Cagliari",
-    "score": 329.9,
+    "score": 365.4,
     "logo": "./logos/srdnlen.png"
   },
   {
     "team_name": "pwnthenope",
     "affiliation": "Università degli Studi di Napoli Parthenope",
-    "score": 173.1,
+    "score": 188.1,
     "logo": "./logos/pwnthenope.png"
   },
   {
@@ -62,7 +62,7 @@
   {
     "team_name": "Pwnlentoni",
     "affiliation": "",
-    "score": 228.1,
+    "score": 258.43,
     "logo": "./logos/pwnlentoni.png"
   },
   {
@@ -80,7 +80,7 @@
   {
     "team_name": "Tower of Hanoi",
     "affiliation": "Politecnico di Milano",
-    "score": 294.33,
+    "score": 322.0,
     "logo": "./logos/toh.png"
   },
   {
@@ -92,13 +92,13 @@
   {
     "team_name": "aetruria",
     "affiliation": "Università di Parma, Università di Modena e Reggio Emilia, Università di Brescia",
-    "score": 284.6,
+    "score": 321.1,
     "logo": "./logos/aetruria.jpg"
   },
   {
     "team_name": "H4ckan3derl1",
     "affiliation": "Libera Università di Bolzano",
-    "score": 182.67,
+    "score": 197.67,
     "logo": "./logos/hackan3derl1.png"
   },
   {
@@ -134,19 +134,19 @@
   {
     "team_name": "PWNC4M",
     "affiliation": "Università degli Studi di Camerino",
-    "score": 232.94,
+    "score": 255.94,
     "logo": "./logos/pwnc4m.png"
   },
   {
     "team_name": "bhackari",
     "affiliation": "Università Ca' Foscari di Venezia",
-    "score": 141.8,
+    "score": 157.6,
     "logo": "./logos/bhackari.jpg"
   },
   {
     "team_name": "Hidden Issue",
     "affiliation": "",
-    "score": 130.93,
+    "score": 145.93,
     "logo": "./logos/hiddenissue.png"
   }
 ]
