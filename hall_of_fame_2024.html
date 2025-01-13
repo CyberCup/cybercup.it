@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>CyberCup.IT</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  <script>
+    function bodyLoad(){
+      navbar = document.getElementById("navbarInclude")
+      
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {navbar.innerHTML = this.responseText;}
+          if (this.status == 404) {navbar.innerHTML = "Navbar not found.";}
+        }
+      }
+      xhttp.open("GET", "/navbar.html", true);
+      xhttp.send();
+      
+      footer = document.getElementById("footerInclude")
+      
+      xhttp2 = new XMLHttpRequest();
+      xhttp2.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {footer.innerHTML = this.responseText;}
+          if (this.status == 404) {footer.innerHTML = "Footer not found.";}
+        }
+      }
+      xhttp2.open("GET", "/footer.html", true);
+      xhttp2.send();
+    }
+  </script>
+</head>
+<body onload="bodyLoad()">
+  <!-- Responsive navbar-->
+  <div id="navbarInclude"> </div>
+  
+  <div class="jumbotron">
+    <div class="row align-items-center text-center align-top pt-4">
+      <h1>CyberCup.IT 2024 <img src="/assets/logo.png" width="60" height="60" alt=""></h1>
+      <p class="lead mission">Riassunto 2° edizione</p>
+    </div>
+  </div>
+  <div class="container">    
+    
+    </div>
+    <hr>
+    <div class="container">
+      <div class="card text-center">
+        <div class="card-header">
+          <h3 class="text-center">Calendario CTF CyberCup 2024 (2° Edizione)</h3>
+        </div>
+        <div class="card-body border-bottom">
+        <h5 class="card-title">Settembre 2023 (-1° Round - Questo round non sarà conteggiato nella scoreboard finale):</h5>
+        <h6>TeamItaly CTF</h6>
+        <p class="card-text">Inizio: 30 Settembre 2023, 14:00 CEST - Fine: 1 Ottobre 2023, 14:00 CEST <br><a class="mx-1" href="https://ctf.teamitaly.eu/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2088">CTFtime</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Ottobre 2023 (1° Round):</h5>
+        <h6>Srdnlen CTF</h6>
+        <p class="card-text">Inizio: 28 Ottobre 2023, 16:00 CEST - Fine: 29 Ottobre 2023, 15:00 CET <br><a class="mx-1" href="https://ctf.srdnlen.it">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2129">CTFtime</a><a class="mx-1" href="https://drive.google.com/drive/folders/1PnZr_BJ5rhRGyPky7rRo4e8WJ3ms8cIt?usp=sharing">Writeups</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Novembre 2023 (2° Round):</h5>
+        <h6>saarCTF</h6>
+        <p class="card-text">Inizio: 18 Novembre 2023, 14:00 CET - Fine: 18 Novembre 2023, 23:00 CET <br><a class="mx-1" href="https://ctf.saarland/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2049">CTFtime</a><a class="mx-1" href="https://drive.google.com/drive/folders/13svRpJTAy7PZAuokcdEhJ5k1GrJPZPPs?usp=sharing">Writeups</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Dicembre 2023 (3° Round):</h5>
+        <h6>snakeCTF</h6>
+        <p class="card-text">Inizio: 9 dicembre 2023, 10:00 CET - Fine: 10 dicembre 2023, 10:00 CET <br><a class="mx-1" href="https://2023.snakectf.org">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2158">CTFtime</a><a class="mx-1" href="https://drive.google.com/drive/folders/1yKV97K70OqWMCwGhKqShpfAhYUu9gRuU?usp=sharing">Writeups</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Gennaio 2024 (4° Round):</h5>
+        <h6>Insomni'hack teaser</h6>
+        <p class="card-text">Inizio: 20/01/2024, 10:00 CET - Fine: 21/01/2024, 10:00 CET <br><a class="mx-1" href="https://insomnihack.ch/contests/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2139">CTFtime</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Febbraio 2024 (5° Round):</h5>
+        <h6>LA CTF 2024</h6>
+        <p class="card-text">Inizio: 17/02/2024, 05:00 CET - Fine: 18/02/2024, 23:00 CET <br><a class="mx-1" href="https://lac.tf/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2102">CTFtime</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Marzo 2024 (6° Round):</h5>
+        <h6>LINE CTF 2024</h6>
+        <p class="card-text">Inizio: 23/03/2024, 01:00 CET - Fine: 24/03/2024, 01:00 CET <br><a class="mx-1" href="https://linectf.me/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2119">CTFtime</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Aprile 2024 (7° Round):</h5>
+        <h6>UMass CTF 2024</h6>
+        <p class="card-text">Inizio: 20/04/2024, 00:00 CEST - Fine: 22/03/2024, 00:00 CEST <br><a class="mx-1" href="https://ctf.umasscybersec.org/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2287">CTFtime</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Maggio 2024 (8° Round):</h5>
+        <h6>L3akCTF 2024</h6>
+        <p class="card-text">Inizio: 24/05/2024, 14:00 CEST - Fine: 26/05/2024, 14:00 CEST <br><a class="mx-1" href="https://ctf.l3ak.team/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2322">CTFtime</a></p>
+      </div>
+      <div class="card-body border-bottom">
+        <h5 class="card-title">Giugno 2024 (9° Round):</h5>
+        <h6>UIUCTF 2024</h6>
+        <p class="card-text">Inizio: 29/06/2024, 02:00 CEST - Fine: 01/07/2024, 02:00 CEST <br><a class="mx-1" href="https://uiuc.tf/">Sito Ufficiale</a> <a class="mx-1" href="https://ctftime.org/event/2275">CTFtime</a></p>
+      </div>
+      <div class="card-footer border-bottom">
+        <p class="card-text">*Il calendario del campionato viene aggiornato in base agli eventi disponibili per quel periodo.</p>
+      </div>
+      </div>
+    </section>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row align-items-center text-center">
+      <h1>Scoreboard Globale</h1>
+    </div>
+    <div class="text-center ">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team Name</th>
+            <th scope="col">Affiliation</th>
+            <th scope="col">Score</th>
+            <th scope="col">Logo</th>
+          </tr>
+        </thead>
+        <tbody id="scoreboard">
+        <tr><th scope="row">1</th><td>MadrHacks</td><td>Università degli Studi di Udine</td><td>377.58</td><td><img src="./logos/madrhacks.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>Srdnlen</td><td>Università degli Studi di Cagliari</td><td>365.4</td><td><img src="./logos/srdnlen.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">3</th><td>Tower of Hanoi</td><td>Politecnico di Milano</td><td>322</td><td><img src="./logos/toh.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">4</th><td>aetruria</td><td>Università di Parma, Università di Modena e Reggio Emilia, Università di Brescia</td><td>321.1</td><td><img src="./logos/aetruria.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">5</th><td>Pwnlentoni</td><td></td><td>258.43</td><td><img src="./logos/pwnlentoni.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">6</th><td>PWNC4M</td><td>Università degli Studi di Camerino</td><td>255.94</td><td><img src="./logos/pwnc4m.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">7</th><td>TRX</td><td>Sapienza Università di Roma</td><td>248.63</td><td><img src="./logos/trx.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">8</th><td>FoocHackz</td><td>Università/Politecnico di Bari</td><td>248.42</td><td><img src="./logos/FoocHackz.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">9</th><td>k1nd4SUS</td><td>Università degli studi di Milano</td><td>248.13</td><td><img src="./logos/k1nd4SUS.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">10</th><td>naslab</td><td>Università di Catania</td><td>219.44</td><td><img src="./logos/naslab.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">11</th><td>H4ckan3derl1</td><td>Libera Università di Bolzano</td><td>197.67</td><td><img src="./logos/hackan3derl1.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">12</th><td>pwnthenope</td><td>Università degli Studi di Napoli Parthenope</td><td>188.1</td><td><img src="./logos/pwnthenope.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">13</th><td>Ulisse</td><td>Università di Bologna</td><td>178.8</td><td><img src="./logos/ulisse.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">14</th><td>Spwnzati</td><td></td><td>168.8</td><td><img src="./logos/Spwnzati.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">15</th><td>ZenHack</td><td>Università degli studi di Genova</td><td>162.14</td><td><img src="./logos/zenhack.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">16</th><td>bhackari</td><td>Università Ca' Foscari di Venezia</td><td>157.6</td><td><img src="./logos/bhackari.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">17</th><td>Hidden Issue</td><td></td><td>145.93</td><td><img src="./logos/hiddenissue.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">18</th><td>CyberSp3ck</td><td>Università di Trento</td><td>122.73</td><td><img src="./logos/cybersp3ck.jpeg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">19</th><td>V:HackaBoia</td><td>Università degli studi della Campania Luigi Vanvitelli</td><td>69.8</td><td><img src="./logos/vhackaboia.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">20</th><td>UnisH4ck</td><td>Università di Salerno</td><td>46.93</td><td><img src="./logos/UnisH4ck.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">21</th><td>IngrifHackTeam</td><td>Università degli Studi di Perugia</td><td>44.73</td><td><img src="./logos/IngrifisHack.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">22</th><td>hack^3</td><td></td><td>44.6</td><td><img src="./logos/hack3.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">23</th><td>Cyb3rM0nk3ys</td><td></td><td>15</td><td><img src="./logos/Cyb3rM0nk3ys.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">24</th><td>CTF Swamp Team</td><td></td><td>0</td><td><img src="./logos/ctfswamp.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">25</th><td>Spaghetti Code</td><td></td><td>0</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr></tbody>
+      </table>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row align-items-center text-center">
+      <h1>Scoreboard Junior</h1>
+    </div>
+    <div class="text-center ">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team Name</th>
+            <th scope="col">Affiliation</th>
+            <th scope="col">Score</th>
+            <th scope="col">Logo</th>
+          </tr>
+        </thead>
+        <tbody id="scoreboard">
+        <tr><th scope="row">1</th><td>Pwnlentoni</td><td></td><td>258.43</td><td><img src="./logos/pwnlentoni.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>PWNC4M</td><td>Università degli Studi di Camerino</td><td>255.94</td><td><img src="./logos/pwnc4m.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">3</th><td>H4ckan3derl1</td><td>Libera Università di Bolzano</td><td>197.67</td><td><img src="./logos/hackan3derl1.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">4</th><td>Spwnzati</td><td></td><td>168.8</td><td><img src="./logos/Spwnzati.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">5</th><td>bhackari</td><td>Università Ca' Foscari di Venezia</td><td>157.6</td><td><img src="./logos/bhackari.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">6</th><td>Hidden Issue</td><td></td><td>145.93</td><td><img src="./logos/hiddenissue.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">7</th><td>CyberSp3ck</td><td>Università di Trento</td><td>122.73</td><td><img src="./logos/cybersp3ck.jpeg" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">8</th><td>V:HackaBoia</td><td>Università degli studi della Campania Luigi Vanvitelli</td><td>69.8</td><td><img src="./logos/vhackaboia.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">9</th><td>CTF Swamp Team</td><td></td><td>0</td><td><img src="./logos/ctfswamp.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">10</th><td>Spaghetti Code</td><td></td><td>0</td><td><img src="./logos/default.jpg" width="90px" height="60px" style="object-fit: contain;"></td></tr></tbody>
+      </table>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+    <div class="row align-items-center text-center">
+      <h1>Writeup Competition Winners</h1>
+      <p>Per leggere i writeup dei vari team fai click <a href="https://drive.google.com/drive/folders/1PnZr_BJ5rhRGyPky7rRo4e8WJ3ms8cIt?usp=sharing">qui</a></p>
+    </div>
+    <div class="text-center mt-5">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team Name</th>
+            <th scope="col">Affiliation</th>
+            <th scope="col">Badges</th>
+            <th scope="col">Logo</th>
+          </tr>
+        </thead>
+        <tbody id="scoreboard">
+        <tr><th scope="row">1</th><td>Srdnlen</td><td>Università degli Studi di Cagliari</td><td>3</td><td><img src="./logos/srdnlen.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">1</th><td>Tower of Hanoi</td><td>Politecnico di Milano</td><td>3</td><td><img src="./logos/toh.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>MadrHacks</td><td>Università degli Studi di Udine</td><td>1</td><td><img src="./logos/madrhacks.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>TRX</td><td>Sapienza Università di Roma</td><td>1</td><td><img src="./logos/trx.png" width="90px" height="60px" style="object-fit: contain;"></td></tr><tr><th scope="row">2</th><td>FoocHackz</td><td>Università/Politecnico di Bari</td><td>1</td><td><img src="./logos/FoocHackz.png" width="90px" height="60px" style="object-fit: contain;"></td></tr></tbody>
+      </table>
+    </div>
+  </div>
+  </div>
+  <footer id="footerInclude">
+  </footer>
+  <!-- Bootstrap core JS
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script-->
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+</html>

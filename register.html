@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>CyberCup.IT</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  
+  <script>
+    function bodyLoad(){
+      navbar = document.getElementById("navbarInclude")
+      
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {navbar.innerHTML = this.responseText;}
+          if (this.status == 404) {navbar.innerHTML = "Navbar not found.";}
+        }
+      }
+      xhttp.open("GET", "/navbar.html", true);
+      xhttp.send();
+      
+      footer = document.getElementById("footerInclude")
+      
+      xhttp2 = new XMLHttpRequest();
+      xhttp2.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {footer.innerHTML = this.responseText;}
+          if (this.status == 404) {footer.innerHTML = "Footer not found.";}
+        }
+      }
+      xhttp2.open("GET", "/footer.html", true);
+      xhttp2.send();
+    }
+  </script>
+    </head>
+    <body>
+        <!-- Page content-->
+        <div class="container" style="background-color: #e3f2fd;">
+          <section class="bg-light pt-5 pb-5 shadow-sm" style="background-color: #e3f2fd;">
+        <h3 class="border-bottom mb-4 text-center">Iscrizione CyberCup 2025</h3>
+   <div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <div class="overflow-scroll" style="height:500px;">
+    <div class="row text-left mt-5 justify-content-center"><div class="col-12 col-lg-10"><div class="text-left">
+    <h3>Privacy Policy</h3>
+    <h3>Informativa e consenso relativi al trattamento dei dati personali, art 13 del GDPR, per gli iscritti al progetto CyberCup.IT del Cybersecurity National Lab. Prima di inoltrare il modulo di iscrizione, devi leggere questa breve informativa e prestare il Tuo consenso al trattamento dei dati che ci fornirai.</h3>
+
+
+<h5>1. Chi è il Titolare del trattamento</h5>
+<p>Titolare del trattamento è il Consorzio Interuniversitario Nazionale per l'Informatica - CINI, con sede legale e amministrativa in Roma, via Ariosto, 25. Il Responsabile della Protezione dei Dati (Data Protection Officer) per il Consorzio Interuniversitario Nazionale per l'Informatica - CINI è raggiungibile al seguente indirizzo email dpo@consorzio-cini.it.</p>
+
+<h5>2. Per quali finalità trattiamo i dati personali</h5>
+<p>I Tuoi dati personali verranno utilizzati esclusivamente per le finalità proprie dell'iniziativa a cui aderisci, in particolare:<br>
+a) per aggiornarti su nuovo materiale o risorse disponibili all'interno del portale;<br>
+b) per aggiornarti su nuove iniziative organizzate o supportate dal Cybersecurity National Lab.</p>
+
+<h5>3. Per quanto tempo saranno conservati i tuo dati</h5>
+<p>I dati personali verranno conservati per un tempo non superiore a quello strettamente necessario a perseguire le finalità per i quali gli stessi sono stati raccolti. I dati potranno esser conservati per finalità di archiviazione, ricerca scientifica e statistica con le garanzie di cui all'art. 89 GDPR.</p>
+
+<h5>4. Quali sono i Tuoi diritti e a chi puoi rivolgerTi per farli valere</h5>
+<p>Potrai rivolgerti al Responsabile della Protezione dei Dati (DPO), che il CINI ha provveduto a nominare, per far valere i tuoi diritti, così come indicato dagli artt. 15 e seguenti del RGPD n. 679/2016, tra i quali in particolare: il diritto di accesso per conoscere come vengono trattati i tuoi dati; di rettifica dei tuoi dati personali inesatti; di cancellazione, di limitazione al trattamento o di opposizione; potrai revocare il trattamento basato sul consenso in qualsiasi momento, senza che ciò pregiudichi la liceità del trattamento prima del tuo atto di revoca; esercitare il diritto alla portabilità dei dati da te forniti. Potrai ovviamente proporre reclamo ad un'Autorità di controllo quale il Garante per la protezione dei dati personali in caso di violazione dei principi di liceità del trattamento.</p>
+          </div>
+  </div>
+</div>
+</div>
+<br><br>
+<div>
+  <h3>Form di iscrizione a CyberCup.IT 2025</h3>
+  <p> Se non visualizzi il form sottostante puoi compilarlo facendo click <a href="https://forms.gle/ypchStbQ8JZQmxGEA">qui</a></p>
+<iframe src="https://forms.gle/ypchStbQ8JZQmxGEA" style="width:100%;height:1500px"></iframe>
+</div>
+</div>
+</section>
+</div>
+<footer id="footerInclude">
+  </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
