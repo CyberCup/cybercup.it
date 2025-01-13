@@ -44,7 +44,7 @@
   {
     "team_name": "Srdnlen",
     "affiliation": "Università degli Studi di Cagliari",
-    "score": 1,
+    "score": 3,
     "logo": "./logos/srdnlen.png"
   },
   {
@@ -68,7 +68,7 @@
   {
     "team_name": "FoocHackz",
     "affiliation": "Università/Politecnico di Bari",
-    "score": 0,
+    "score": 1,
     "logo": "./logos/FoocHackz.png"
   },
   {
@@ -80,7 +80,7 @@
   {
     "team_name": "Tower of Hanoi",
     "affiliation": "Politecnico di Milano",
-    "score": 2,
+    "score": 3,
     "logo": "./logos/toh.png"
   },
   {
